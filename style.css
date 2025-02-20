@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    /* background-color: whitesmoke; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 5px gray;
+
+}
+#logo{
+    /* background-color: red; */
+    width: 15vw;
+    font-size: 1vw;
+    line-height: 1.3vw;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    font-weight: 500;
+    color: darkgreen;
+}
+
+#logo i{
+    font-size: 1.5vw;
+    border: 2px solid black;
+    padding: 7px 5px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+   
+
+}
+#option{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    font-size: 1.5vw;
+    padding: 7px ;
+
+}
+#option h4{
+    font-weight: 500px;
+    color: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+#number{
+    /* margin-left: 25px; */
+    width: 15vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#number button{
+    font-size: large;
+    font-weight: 500;
+    border-radius: 50px;
+    border-color: green;
+    padding: 10px 20px;
+}
+#hero-section-content{
+    width: 100%;
+    margin-top: 30px;
+    /* background-color: red; */
+    font-size: 2.3vw;
+    
+}
+#hero-section-content h1{
+    color: rgb(4, 39, 4);
+    font-family: serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#hero-section-images{
+    /* background-color: blue; */
+    height: 70vh;
+    border-bottom: 2px dotted black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hero-section-images img:nth-child(2n){
+    width: 12vw;
+    height: 28vh;
+    border-radius: 15px;
+    /* margin: 15px; */
+    box-shadow: 2px 2px 15px rgb(146, 69, 69);
+}
+
+#hero-section-images img:nth-child(2n-1){
+    width: 15vw;
+    height: 40vh;
+    border-radius: 15px;
+    /* margin: 10px; */
+    box-shadow: 2px 2px 15px rgb(146, 69, 69);
+}
+#breakfast-logo-heading{
+    /* background-color: rebeccapurple; */
+    margin-top: 100px;
+    text-align: center;
+    line-height: 50px;
+
+}
+#breakfast-logo-heading img{
+    width: 2.5vw;
+    height: 5.3vh;
+}
+#breakfast-logo-heading h2{
+    color: black;
+    color: rgb(4, 39, 4);
+    font-family: serif;
+    font-size: 3.5vw;
+    font-weight: 200;
+    word-spacing: 15px;
+
+}
+#breakfast-food{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+#breakfast-food-left-content{
+    width: 100%;
+    margin: 30px 5px 35px 35px;
+}
+
+
+
+#food-left-1{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-left-name-1{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 30vw;
+    text-align: left;
+}
+
+#food-1-img img{
+    margin: 0px 5px;
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-left-price-1{
+    font-size: 1.1vw;
+    text-align: left;
+}
+
+
+
+
+
+
+#food-left-2{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-left-name-2{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 29.5vw;
+    text-align: left;
+}
+
+#food-2-img img{
+    padding: 0px 0px;
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-left-price-2{
+    width: 5.3vw;
+    font-size: 1.1vw;
+    text-align: left;
+}
+
+
+
+
+
+#food-left-3{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-left-name-3{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 30vw;
+    text-align: left;
+}
+
+#food-3-img img{
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-left-price-3{
+    font-size: 1.1vw;
+}
+
+
+
+
+#food-left-4{
+    
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-left-name-4{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 30vw;
+    text-align: left;
+}
+
+#food-4-img img{
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-left-price-4{
+     width: 5.5vw;
+    font-size: 1.1vw;
+}
+
+
+
+
+#breakfast-food-right-content{
+    width: 100%;
+    margin: 30px 50px 35px 35px;
+}
+
+
+
+#food-right-1{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-right-name-1{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 30vw;
+    text-align: left;
+}
+
+#food-5-img img{
+    margin: 0px 5px;
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-right-price-1{
+    font-size: 1.1vw;
+    text-align: left;
+}
+
+
+
+
+#food-right-2{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-right-name-2{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 29.5vw;
+    text-align: left;
+}
+
+#food-6-img img{
+    padding: 0px 0px;
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-right-price-2{
+    width: 5.3vw;
+    font-size: 1.1vw;
+    text-align: left;
+}
+
+
+#food-right-3{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-right-name-3{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 30vw;
+    text-align: left;
+}
+
+#food-7-img img{
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-right-price-3{
+    width: 5.5vw;
+    font-size: 1.1vw;
+}
+
+
+
+
+#food-right-4{
+    
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted black;
+}
+#food-right-name-4{
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    width: 30vw;
+    text-align: left;
+}
+
+#food-8-img img{
+    display: flex;
+    width: 5vw;
+    height: 10vh;
+
+}
+#food-right-price-4{
+     width: 5.5vw;
+    font-size: 1.1vw;
+}
+
+
+
+#table-button{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#table-button button{
+    padding: 15px 25px;
+    gap: 10px;
+    background-color:rgb(6, 81, 64);
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    border-radius: 50px;
+    box-shadow: 0px 2px 1px darkgreen;
+
+}
