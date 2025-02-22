@@ -72,14 +72,14 @@ html body{
     border-color: green;
     padding: 10px 20px;
 }
-#hero-section-content{
+.hero-section-content{
     width: 100%;
     margin-top: 30px;
     /* background-color: red; */
     font-size: 2.3vw;
     
 }
-#hero-section-content h1{
+.hero-section-content h1{
     color: rgb(4, 39, 4);
     font-family: serif;
     font-weight: 300;
@@ -88,7 +88,18 @@ html body{
     justify-content: center;
     text-align: center;
 }
-#hero-section-images{
+.hero-section-content h3{
+    font-size: 5vw;
+    line-height: 1vw;
+    color: rgb(4, 39, 4);
+    font-family: serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section-images{
     /* background-color: blue; */
     height: 70vh;
     border-bottom: 2px dotted black;
@@ -97,7 +108,7 @@ html body{
     justify-content: space-around;
     align-items: center;
 }
-#hero-section-images img:nth-child(2n){
+.hero-section-images img:nth-child(2n){
     width: 12vw;
     height: 28vh;
     border-radius: 15px;
@@ -105,7 +116,7 @@ html body{
     box-shadow: 2px 2px 15px rgb(146, 69, 69);
 }
 
-#hero-section-images img:nth-child(2n-1){
+.hero-section-images img:nth-child(2n-1){
     width: 15vw;
     height: 40vh;
     border-radius: 15px;
