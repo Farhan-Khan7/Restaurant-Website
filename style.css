@@ -455,29 +455,36 @@ html body{
     box-shadow: 0px 2px 10px darkgreen;
 }
 #bottom-main-section{
-    background-color: yellow;
+    background-color: rgb(231, 231, 20);
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
-    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px;
+    /* margin: 0% 5%; */
 }
 
 #bottom-main-left-section{
-    margin: 30px;
+    margin-left: 50px;
     width: 50vw;
     height: 60vh ;
     background-color: red;
+    padding: 25px 0px;
 }
 #bottom-left-paraghraph{
+    /* padding: 15px; */
     font-size: 3vh;
     font-family: serif;
     text-align: center;
     line-height: 4.5vh;
     word-spacing: 5px;
-    width: 100%;
+    width: fit-content;
+    margin: 0px 60px;
+    font-weight: 500;
     height: 30vh ;
-    background-color: rgb(80, 32, 32);
-    border-bottom: 2px dashed red;
+    /* background-color: rgb(80, 32, 32); */
+    border-bottom: 2px dashed brown;
 }
 
 
@@ -487,18 +494,33 @@ html body{
     align-items: center;
     justify-content: center;
     gap: 5px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #bottom-left-profile img{
     border-radius: 50px;
-    width: 8vh;
-    height: 8vh;
+    width: 7vh;
+    height: 7vh;
+}
+#bottom-left-button{
+    /* background-color: blue; */
+    text-align: center;
+    padding: 10px;
+}
+#bottom-left-button button{
+    margin: 5px;
+    font-size: large;
+    background-color:rgb(6, 81, 64);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
 }
 
 
 #bottom-main-right-section{
-    width: 100%;
-    height: 30vh ;
+    /* margin: 30px 0px; */
+    width: 60vw;
+    height: 60vh ;
     background-color: rgb(3, 41, 5);
 }
